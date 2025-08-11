@@ -1,0 +1,9 @@
+scripts:
+  makemigrations:
+    - pipenv run python manage.py makemigrations
+  migrate:
+    - pipenv run python manage.py migrate 
+  shell:
+    - pipenv run python manage.py shell
+  server:
+    - pipenv run python manage.py runserver 8001    
